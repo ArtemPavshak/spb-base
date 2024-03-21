@@ -24,6 +24,7 @@ import java.util.*;
 @Service
 @RequiredArgsConstructor
 @Slf4j
+
 public class ItemService {
 
     private final ItemRepository repository;
@@ -36,7 +37,7 @@ public class ItemService {
     );
 
     @PostConstruct
-    void init() {
+   public void init() {
         repository.deleteAll();
         repository.saveAll(items);
     }

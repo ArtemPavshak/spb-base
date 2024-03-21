@@ -1,11 +1,5 @@
 package edu.pro.spbbase.model;
-/*
-  @author   george
-  @project   spb-base
-  @class  Item
-  @version  1.0.0 
-  @since 11.02.24 - 12.15
-*/
+
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

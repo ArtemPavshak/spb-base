@@ -17,6 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/items")
 @RequiredArgsConstructor
+@ControllerAdvice
 public class ItemController {
 
     private final ItemService service;
