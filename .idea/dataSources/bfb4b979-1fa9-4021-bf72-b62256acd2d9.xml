@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="testDB@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.51">
+    <root id="1">
+      <ServerVersion>7.0.7</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="config"/>
+    <schema id="4" parent="1" name="local"/>
+    <schema id="5" parent="1" name="testDB">
+      <Current>1</Current>
+      <LastIntrospectionLocalTimestamp>2024-04-20.05:07:28</LastIntrospectionLocalTimestamp>
+    </schema>
+  </database-model>
+</dataSource>

@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="light24@localhost" uuid="94a5bb24-4ab4-462f-9a4c-c4c648babd16">
+    <data-source source="LOCAL" name="testDB@localhost" uuid="bfb4b979-1fa9-4021-bf72-b62256acd2d9">
       <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/src/main/resources/application.properties</remarks>
       <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
-      <jdbc-url>mongodb://localhost:27017/light24</jdbc-url>
+      <jdbc-url>mongodb://localhost:27017/testDB</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />

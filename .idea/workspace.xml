@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69b56865-72d4-41a2-bfd6-2db1c95672da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pro/spbbase/repository/ItemRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/pro/spbbase/model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/pro/spbbase/model/Item.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2e7xTYUUiJw4eKivWs4YC0gvM3b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ItemRepositoryTest.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldCheckTheCollectionIsNotEmpty.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldCountItems.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldDeleteAllItems.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldDeleteItem.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldDeleteItemsByCode.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldDeleteItemsByDescription.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldDeleteItemsWithSpecificProperties.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldFindItemsByCodeLength.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldSaveItem.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldUpdateItem.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldUpdateItemCode.executor": "Run",
+    "JUnit.ItemRepositoryTest.itShouldUpdateItemName.executor": "Run",
+    "JUnit.SpbBaseArchitectureTests.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.SpbBaseApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "1-archunit",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Universtity 3 course 2 semester/Testing Software/laba4/spb-base",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.25141242",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.pro.spbbase.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ItemRepositoryTest.itShouldFindItemsByCodeLength">
+    <configuration name="ItemRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spb-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pro.spbbase.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
+      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemRepositoryTest.itShouldCountItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spb-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pro.spbbase.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
+      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
+      <option name="METHOD_NAME" value="itShouldCountItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemRepositoryTest.itShouldDeleteItemsByCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spb-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pro.spbbase.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
+      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
+      <option name="METHOD_NAME" value="itShouldDeleteItemsByCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemRepositoryTest.itShouldDeleteItemsByDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spb-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pro.spbbase.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
+      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
+      <option name="METHOD_NAME" value="itShouldDeleteItemsByDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemRepositoryTest.itShouldFindItemsByCodeLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spb-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pro.spbbase.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
+      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
+      <option name="METHOD_NAME" value="itShouldFindItemsByCodeLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ItemRepositoryTest.itShouldFindItemsByCodeLength" />
+        <item itemvalue="JUnit.ItemRepositoryTest" />
+        <item itemvalue="JUnit.ItemRepositoryTest.itShouldCountItems" />
+        <item itemvalue="JUnit.ItemRepositoryTest.itShouldDeleteItemsByDescription" />
+        <item itemvalue="JUnit.ItemRepositoryTest.itShouldDeleteItemsByCode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-3183f394aec4-aba903c2" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69b56865-72d4-41a2-bfd6-2db1c95672da" name="Changes" comment="" />
+      <created>1711269427010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711269427010</updated>
+      <workItem from="1711269430260" duration="37000" />
+      <workItem from="1713513228151" duration="6836000" />
+      <workItem from="1713587718927" duration="2494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
