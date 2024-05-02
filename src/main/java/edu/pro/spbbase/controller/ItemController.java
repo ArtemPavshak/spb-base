@@ -8,6 +8,8 @@ package edu.pro.spbbase.controller;
 */
 
 import edu.pro.spbbase.model.Item;
+import edu.pro.spbbase.model.ItemEditRequest;
+import edu.pro.spbbase.model.ItemInsertRequest;
 import edu.pro.spbbase.service.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -33,8 +35,12 @@ public class ItemController {
     }
 
     @PostMapping
-    public Item insert(@RequestBody Item item) {
-        return service.create(item);
+    public Item insert(@RequestBody ItemInsertRequest request) {
+        return service.create(request);
+    }
+    @PutMapping
+    public Item edit(@RequestBody ItemEditRequest request) {
+        return service.update(request);
     }
 
     @DeleteMapping("/{id}")

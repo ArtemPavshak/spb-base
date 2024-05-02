@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b56865-72d4-41a2-bfd6-2db1c95672da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pro/spbbase/repository/ItemRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/model/ItemEditRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/model/ItemInsertRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pro/spbbase/service/ItemServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/repository/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/pro/spbbase/model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/pro/spbbase/model/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pro/spbbase/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/pro/spbbase/repository/ItemRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/pro/spbbase/repository/ItemRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +25,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1-archunit" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -55,6 +63,9 @@
     "JUnit.ItemRepositoryTest.itShouldUpdateItem.executor": "Run",
     "JUnit.ItemRepositoryTest.itShouldUpdateItemCode.executor": "Run",
     "JUnit.ItemRepositoryTest.itShouldUpdateItemName.executor": "Run",
+    "JUnit.ItemServiceTest.executor": "Run",
+    "JUnit.ItemServiceTest.itShouldNotSaveItemWhenCodeIsNot6Length.executor": "Run",
+    "JUnit.ItemServiceTest.itShouldNotSaveItemWhenCodeLengthIsNot6.executor": "Run",
     "JUnit.SpbBaseArchitectureTests.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -66,9 +77,9 @@
     "Spring Boot.SpbBaseApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "1-archunit",
+    "git-widget-placeholder": "2-step-service-preparation",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Universtity 3 course 2 semester/Testing Software/laba4/spb-base",
+    "last_opened_file_path": "D:/Universtity 3 course 2 semester/Testing Software/laba4/spb-base/src/test",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -86,14 +97,24 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Universtity 3 course 2 semester\Testing Software\laba4\spb-base\src\test" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Universtity 3 course 2 semester\Testing Software\laba4\spb-base\src\test" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.pro.spbbase.service" />
       <recent name="edu.pro.spbbase.repository" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.pro.spbbase.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ItemRepositoryTest.itShouldFindItemsByCodeLength">
+  <component name="RunManager" selected="JUnit.ItemServiceTest.itShouldNotSaveItemWhenCodeLengthIsNot6">
     <configuration name="ItemRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spb-base" />
       <extension name="coverage">
@@ -105,54 +126,6 @@
       <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
       <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemRepositoryTest.itShouldCountItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spb-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.pro.spbbase.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
-      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
-      <option name="METHOD_NAME" value="itShouldCountItems" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemRepositoryTest.itShouldDeleteItemsByCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spb-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.pro.spbbase.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
-      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
-      <option name="METHOD_NAME" value="itShouldDeleteItemsByCode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemRepositoryTest.itShouldDeleteItemsByDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spb-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.pro.spbbase.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.pro.spbbase.repository" />
-      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.repository.ItemRepositoryTest" />
-      <option name="METHOD_NAME" value="itShouldDeleteItemsByDescription" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,13 +146,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ItemServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spb-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pro.spbbase.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pro.spbbase.service" />
+      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.service.ItemServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceTest.itShouldNotSaveItemWhenCodeIsNot6Length" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spb-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pro.spbbase.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pro.spbbase.service" />
+      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.service.ItemServiceTest" />
+      <option name="METHOD_NAME" value="itShouldNotSaveItemWhenCodeIsNot6Length" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceTest.itShouldNotSaveItemWhenCodeLengthIsNot6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spb-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pro.spbbase.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pro.spbbase.service" />
+      <option name="MAIN_CLASS_NAME" value="edu.pro.spbbase.service.ItemServiceTest" />
+      <option name="METHOD_NAME" value="itShouldNotSaveItemWhenCodeLengthIsNot6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemServiceTest.itShouldNotSaveItemWhenCodeLengthIsNot6" />
+        <item itemvalue="JUnit.ItemServiceTest.itShouldNotSaveItemWhenCodeIsNot6Length" />
+        <item itemvalue="JUnit.ItemServiceTest" />
         <item itemvalue="JUnit.ItemRepositoryTest.itShouldFindItemsByCodeLength" />
         <item itemvalue="JUnit.ItemRepositoryTest" />
-        <item itemvalue="JUnit.ItemRepositoryTest.itShouldCountItems" />
-        <item itemvalue="JUnit.ItemRepositoryTest.itShouldDeleteItemsByDescription" />
-        <item itemvalue="JUnit.ItemRepositoryTest.itShouldDeleteItemsByCode" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +220,9 @@
       <updated>1711269427010</updated>
       <workItem from="1711269430260" duration="37000" />
       <workItem from="1713513228151" duration="6836000" />
-      <workItem from="1713587718927" duration="2494000" />
+      <workItem from="1713587718927" duration="6037000" />
+      <workItem from="1713695833709" duration="26000" />
+      <workItem from="1714058181588" duration="6267000" />
     </task>
     <servers />
   </component>

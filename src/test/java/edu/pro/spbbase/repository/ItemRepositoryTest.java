@@ -32,13 +32,13 @@ class ItemRepositoryTest {
 
     @BeforeEach
     void setUp() {
-         /*List<Item> items = List.of(
+         List<Item> items = List.of(
                 new Item("1", "Maria", "000001", "$$testhtj"),
                 new Item("2", "Artem", "000002", "test##"),
                 new Item("3", "Iryna", "000003", "hj6##test*")
         );
 
-         underTest.saveAll(items);*/
+         underTest.saveAll(items);
     }
 
     @AfterEach

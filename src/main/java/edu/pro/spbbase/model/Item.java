@@ -17,7 +17,7 @@ public class Item {
     @Id
     private String id; // UUID
     private String name;
-    private String code;
+    private String code; //unique
     private String description;
 
     public Item(String name, String code, String description) {
